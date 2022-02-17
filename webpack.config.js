@@ -34,7 +34,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        puglins: [
+                        plugins: [
                             isDeleploment && require.resolve('react-refresh/babel')
                         ].filter(Boolean)
                     }
